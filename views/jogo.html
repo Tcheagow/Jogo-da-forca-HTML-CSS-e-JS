@@ -48,10 +48,8 @@
             <form class="digite_letra">
                 <label for="letra">Digite aqui uma letra</label><br>
                 <input maxlength="1" type="text" id="letra" name="letra"><br>
+                <button type="submit" class="button" onclick="pegaLetra();verificarTentativa();event.preventDefault()">Verificar</button>
             </form>
-            <div class="botao">
-                <button class="button" onclick="pegaLetra();verificarTentativa()">Verificar</button>
-            </div>
         </div>
     </main>
     <footer>
