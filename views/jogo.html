@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da forca</title>
+    <link rel="stylesheet" href="/estilizacoes/jogo.css">
+</head>
+<body onload="defineTema(); excluiMsg()">
+    <nav>
+        <ul class="game">
+            <li id="pai">
+                <p id="tema" class="menu"></p>
+            </li>
+            <li>
+                <h1 class="titulo">Jogo da Forca</h1>
+            </li>
+            <li>
+                <p id="erros" class="menu">Erros: 0</p>
+            </li>
+        </ul>
+    </nav>
+    <main id="main">
+        <div id="excluiTudo">
+            <div class="palavra">
+                <div id="div0" class="letras">_</div>
+                <div id="div1" class="letras">_</div>
+                <div id="div2" class="letras">_</div>
+                <div id="div3" class="letras">_</div>
+                <div id="div4" class="letras">_</div>
+                <div id="div5" class="letras">_</div>
+                <div id="div6" class="letras">_</div>
+                <div id="div7" class="letras">_</div>
+                <div id="div8" class="letras">_</div>
+                <div id="div9" class="letras">_</div>
+                <div id="div10" class="letras">_</div>
+                <div id="div11" class="letras">_</div>
+                <div id="div12" class="letras">_</div>
+                <div id="div13" class="letras">_</div>
+                <div id="div14" class="letras">_</div>
+                <div id="div15" class="letras">_</div>
+                <div id="div16" class="letras">_</div>
+                <div id="div17" class="letras">_</div>
+                <div id="div18" class="letras">_</div>
+                <div id="div19" class="letras">_</div>
+            </div>
+            <form class="digite_letra">
+                <label for="letra">Digite aqui uma letra</label><br>
+                <input maxlength="1" type="text" id="letra" name="letra"><br>
+            </form>
+            <div class="botao">
+                <button class="button" onclick="pegaLetra();verificarTentativa()">Verificar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="copyright">  © By Tcheagow</p>
+    </footer>
+    <script src="/js/jogo.js"></script>
+</body>
+</html>

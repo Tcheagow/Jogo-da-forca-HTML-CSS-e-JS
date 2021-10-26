@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #5480F7;
+}
+.game{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 60px;
+    transform: translateY(-25%);
+}
+ul li{
+    list-style: none;
+}
+.titulo{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.menu{
+    font-size: 20px;
+}
+.palavra{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 40vh;
+}
+.letras{
+    padding: 5px;
+    font-size: 50px;
+}
+.digite_letra{
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 20px;
+}
+.botao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    width: 180px;
+    height: 50px;
+
+    border-radius: 20px;
+    background-color: #183FAB;
+    box-shadow: 3px -1px darkblue;
+
+    font-weight: bold;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+    height: 5%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #FF7F00;
+}
+.copyright{
+    font-size: 20px;
+}
+.titulo1{
+    position: relative;
+    margin-top: 20vh;
+
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+.botaoDerrota{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    position: relative;
+}
+.pDerrota{
+    font-size: 20px;
+}
+.pWin{
+    font-size: 20px;
+}
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da forca</title>
+    <link rel="stylesheet" href="/estilizacoes/index.css">
+</head>
+<body onload="exibeMensagem()">
+    <div id="paiDeTodos">
+        <div id="game">
+            <header>
+                <h1 class="titulo">
+                    Jogo da forca
+                </h1>
+            </header>
+            <main>
+                <form>
+                    <label for="palavra">Digite aqui a palavra escolhida</label><br>
+                    <input maxlength="20" type="text" id="palavra" name="palavra"><br>
+                    <label for="tema">Digite aqui o tema:</label><br>
+                    <input maxlength="20" type="text" id="tema" name="tema"><br><br>
+                </form>
+                <div id="addMsg" class="linkbotao">
+                    <a id="link" href="/views/jogo.html">
+                        <button class="button" onclick="pegaPalavra()">Iniciar game</button>
+                    </a>
+                    <p id="msg" class="msg msgAtiva">Por favor, digite algo para continuar</p>
+                </div> 
+            </main>
+            <footer>
+                <p class="copyright">  © By Tcheagow</p>
+            </footer>
+        </div>
+    </div>
+    <script src="/js/pegaPalavras.js"></script>
+</body>
+</html>
