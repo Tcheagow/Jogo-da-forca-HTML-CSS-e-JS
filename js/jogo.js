@@ -23,6 +23,10 @@ function mostrabarras(){
 function pegaLetra() {
     var campo1 = document.getElementById("letra").value;
     localStorage.setItem("letra", campo1);
+
+    //limpa campo
+    var limpa_campo = document.getElementById("letra");
+    limpa_campo.value = "";
 }
 
 var erros = 0; 
