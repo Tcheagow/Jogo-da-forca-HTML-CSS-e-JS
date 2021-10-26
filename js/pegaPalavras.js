@@ -11,7 +11,7 @@ function pegaPalavra() {
         localStorage.setItem("msg", "msgAtiva");
         var mudarLink = document.getElementById("link");
 
-        mudarLink.setAttribute("href", "/views/index.html");
+        mudarLink.setAttribute("href", "./index.html");
     }
 }
     
