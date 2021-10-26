@@ -92,7 +92,7 @@ function derrota() {
 
     divbt.className = "botaoDerrota";
 
-    link.setAttribute("href", "/index.html");
+    link.setAttribute("href", "./index.html");
 
     button.innerText = "Jogar de novo";
     button.className = "button";
@@ -121,7 +121,7 @@ function vitoria() {
 
     divbt.className = "botaoDerrota";
 
-    link.setAttribute("href", "/index.html");
+    link.setAttribute("href", "./index.html");
 
     button.innerText = "Jogar de novo";
     button.className = "button";
