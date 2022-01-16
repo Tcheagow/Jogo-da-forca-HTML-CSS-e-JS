@@ -15,3 +15,6 @@
 <br>
 <h1> Link do site: </h1>
 <a> <p> https://tcheagow.github.io/Jogo-da-forca-HTML-CSS-e-JS/ </p> </a> 
+<br>
+<br>
+<h2> Feito por Tcheagow</h2>
